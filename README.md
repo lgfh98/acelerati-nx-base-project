@@ -10,6 +10,8 @@
 
 [Click here to finish setting up your workspace!](https://cloud.nx.app/connect/SjaEbNC0WL)
 
+Associated Nx Cloud URL:
+- https://cloud.nx.app/connect/nWYPrDGiA3
 
 ## Generate a library
 

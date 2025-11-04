@@ -6,7 +6,8 @@
       "sharedGlobals"
     ],
     "production": [
-      "default"
+      "default",
+      "!{projectRoot}/src/test/**/*"
     ],
     "sharedGlobals": [
       "{workspaceRoot}/azure-pipelines.yml"
@@ -26,6 +27,14 @@
           "buildDepsName": "build-deps",
           "watchDepsName": "watch-deps"
         }
+      }
+    },
+    {
+      "plugin": "@nx/gradle",
+      "options": {
+        "testTargetName": "test",
+        "classesTargetName": "classes",
+        "buildTargetName": "build"
       }
     }
   ]
